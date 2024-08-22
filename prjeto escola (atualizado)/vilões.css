@@ -1,0 +1,99 @@
+body{
+   background-color: black;
+}
+.logo{
+    width: 15%;
+    display: block;
+    margin: auto;
+    position: 9;
+   
+}
+nav.menu-later{/*barra preta do menu lateral*/
+    background-color: black;
+    box-shadow: 5px 0 0 rgb(255, 255, 255);
+    height: 100%;
+    top: 10px;
+    left: 0;
+    width: 0px;
+    padding: 0px 50px 60px 1%;
+    position: fixed;
+    overflow: hidden;
+    transition: 0.5s;
+}nav.menu-later:hover{
+    width: 200px;
+
+}
+nav.menu-later:hover p.txt-menu{
+    display: inline;
+    margin: 5%;
+}
+ul.lista-menu{
+ 
+    height: 100%;
+    list-style-type: none;
+}ul li.menu a{/*toda a parte de icones do menu lateral*/
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 40px 4%;
+    display: flex;
+    margin-bottom: -10px;
+    display: flex;
+    line-height: 30px;
+}ul li.menu a .nome{/*parte dos nome dos icones*/
+    margin-left: 24px;
+}ul li.menu a .icone{
+    font-size: 17px;
+}ul li.menu:hover {
+    background-color: grey;
+    width: 200px;
+    height: 100px;
+    position: center;
+}ul li.menu{
+    transition: 0.5s;
+}
+ul li.menu:last-child{
+    position: absolute;
+    bottom: 10%;
+    
+}
+ul li.menu:hover .icon-traje{
+    width: 60%;
+    transition: 0.5s;
+}
+ul li.menu .txt-menu{
+    display: none;
+    transition: 0.5s;
+}
+ul li.menu:hover .txt-menu{
+    display: flex;
+    transition: 0.8s;
+} 
+.texto-traje{
+    margin-left: 5%;
+    font-size: 26.5px;
+}
+.icon-traje{
+    width: 48px;
+    transition: 0.5s;
+}
+.icon-vilao{
+    
+    width: 48px;
+    transition: 0.5s;
+    margin-left: -8px;
+}
+.icon-robin{
+    margin-left: -15px;
+}
+.icon-hq{
+    margin-left: -8px;
+}
+.icon-login{
+    width: 45px;
+}
+.conta{
+    color: white;
+    margin-left: 42%;
+    font-size: 50px;
+}
